@@ -1,0 +1,31 @@
+#Carousel .carousel-item img {
+  object-fit: cover;
+}
+
+#section01 .row{
+  width: 100vw;
+}
+#footer p {
+  font-size: 0.9rem;
+}
+
+@media (min-width:992px) {
+  #Carousel {
+    height: 100vh;
+  }
+
+  #Carousel .carousel,
+  #Carousel .carousel-inner,
+  #Carousel .carousel-item,
+  #Carousel .carousel-item img {
+    height: 100%;
+  }
+  #section02 .row .col-12:first-child {
+    width: 50%;
+  }
+
+  #section02 .row:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
